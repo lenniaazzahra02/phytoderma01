@@ -19,7 +19,7 @@ var PACKAGES = [
   { title: "Smile Bright", price: "Rp 1.999.000", items: ["Scaling & Polishing","In-office Whitening","Desensitizer"] }
 ];
 var DOCTORS = [
-  { name: "dr. Rani S., Dipl.AAAM", role: "Dokter Aesthetic", bio: "Anti-aging, pigmentasi, jerawat.", img: "assets/images/dok1.jpg" },
+  { name: "dr. Linghe., Dipl.AAAM", role: "Dokter Aesthetic", bio: "Anti-aging, pigmentasi, jerawat.", img: "assets/images/dok1.jpg" },
   { name: "drg. Bima N., Sp.KG", role: "Sp. Konservasi", bio: "Restorasi estetik, saluran akar, veneer.", img: "assets/images/dok2.jpeg" },
   { name: "drg. Cakra B., Sp.Ort", role: "Sp. Ortodonti", bio: "Aligner transparan & behel estetik.", img: "assets/images/doctor-ortho.jpg" }
 ];
