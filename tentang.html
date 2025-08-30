@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tentang Kami & Akreditasi — Phytoderma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui']},colors:{primary:{DEFAULT:'#14b8a6',600:'#0d9488',50:'#f0fdfa'},accent:{DEFAULT:'#ec4899',600:'#db2777',50:'#fdf2f8'},ink:{DEFAULT:'#0f172a'},mute:{DEFAULT:'#64748b'},line:{DEFAULT:'#e5e7eb'}},boxShadow:{soft:'0 2px 10px rgba(0,0,0,.06)'}}}}</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-ink">
+<header class="sticky top-0 z-50 border-b border-line/80 bg-white/80 backdrop-blur">
+  <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <span class="grid place-items-center size-9 rounded-xl bg-primary text-white shadow-soft font-bold">★</span>
+      <span class="leading-tight">
+        <span class="block text-sm text-accent font-semibold">No.1 Aesthetic & Dental Center in Asia</span>
+        <span class="block font-semibold">Phytoderma Aesthetic & Dental</span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="bg-accent-50">
+    <div class="mx-auto max-w-7xl px-4 py-12">
+      <h1 class="text-3xl md:text-4xl font-semibold">Tentang Kami & Akreditasi</h1>
+      <p class="mt-2 text-mute max-w-3xl">Phytoderma memadukan dermatologi estetik dan kedokteran gigi modern dengan protokol berbasis bukti.</p>
+    </div>
+  </section>
+
+  <section class="py-12">
+    <div class="mx-auto max-w-7xl px-4 grid gap-6 md:grid-cols-3">
+      <article class="rounded-3xl border border-line bg-white p-6 shadow-soft">
+        <h2 class="text-lg font-semibold">Visi</h2>
+        <p class="text-sm text-slate-700 mt-1">Menjadi pusat Aesthetic & Dental No.1 di Asia yang aman, empatik, dan berstandar tinggi.</p>
+      </article>
+      <article class="rounded-3xl border border-line bg-white p-6 shadow-soft">
+        <h2 class="text-lg font-semibold">Misi</h2>
+        <ul class="text-sm text-slate-700 mt-1 list-disc pl-5">
+          <li>Protokol steril & keamanan pasien</li>
+          <li>Pendidikan & komunikasi jelas</li>
+          <li>Hasil natural dan berkelanjutan</li>
+        </ul>
+      </article>
+      <article class="rounded-3xl border border-line bg-white p-6 shadow-soft">
+        <h2 class="text-lg font-semibold">Akreditasi</h2>
+        <ul class="text-sm text-slate-700 mt-1 list-disc pl-5">
+          <li>Standar Sterilisasi Klinik</li>
+          <li>CPD/Workshop Estetik & Dental</li>
+          <li>Supplier alat & bahan bersertifikat</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-line bg-white mt-16">
+  <div class="mx-auto max-w-7xl px-4 py-8 text-xs text-mute text-center">© <span id="year"></span> Phytoderma</div>
+</footer>
+<script>const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();</script>
+</body></html>

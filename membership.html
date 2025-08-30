@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Membership — Phytoderma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui']},colors:{primary:{DEFAULT:'#14b8a6',600:'#0d9488',50:'#f0fdfa'},accent:{DEFAULT:'#ec4899',600:'#db2777',50:'#fdf2f8'},ink:{DEFAULT:'#0f172a'},mute:{DEFAULT:'#64748b'},line:{DEFAULT:'#e5e7eb'}},boxShadow:{soft:'0 2px 10px rgba(0,0,0,.06)'}}}}</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-ink">
+<header class="sticky top-0 z-50 border-b border-line/80 bg-white/80 backdrop-blur">
+  <div class="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <span class="grid place-items-center size-9 rounded-xl bg-primary text-white shadow-soft font-bold">★</span>
+      <span class="leading-tight">
+        <span class="block text-sm text-accent font-semibold">No.1 Aesthetic & Dental Center in Asia</span>
+        <span class="block font-semibold">Phytoderma Aesthetic & Dental</span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main>
+  <section class="bg-primary-50">
+    <div class="mx-auto max-w-7xl px-4 py-12 text-center">
+      <h1 class="text-3xl md:text-4xl font-semibold">Membership</h1>
+      <p class="mt-2 text-mute">Langganan perawatan bulanan untuk hasil terjaga dan hemat.</p>
+    </div>
+  </section>
+
+  <section class="py-12">
+    <div class="mx-auto max-w-7xl px-4 grid gap-6 md:grid-cols-3">
+      <article class="rounded-3xl border border-line bg-white p-6 shadow-soft">
+        <h2 class="text-lg font-semibold">Glow Basic</h2>
+        <div class="mt-1 text-2xl font-bold text-accent">Rp 399.000/bln</div>
+        <ul class="mt-3 list-disc pl-5 text-sm text-slate-700">
+          <li>1x Facial Basic</li><li>Diskon 5% tindakan</li><li>Prioritas booking</li>
+        </ul>
+        <a href="https://wa.me/6281232131212?text=Halo%20Phytoderma,%20saya%20ingin%20konsultasi" class="mt-4 inline-flex rounded-2xl bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-600">Gabung</a>
+      </article>
+      <article class="rounded-3xl border border-line bg-white p-6 shadow-soft">
+        <h2 class="text-lg font-semibold">Glow Plus</h2>
+        <div class="mt-1 text-2xl font-bold text-accent">Rp 799.000/bln</div>
+        <ul class="mt-3 list-disc pl-5 text-sm text-slate-700">
+          <li>1x Facial Premium / Peeling</li><li>Diskon 10% tindakan</li><li>Gratis konsultasi</li>
+        </ul>
+        <a href="https://wa.me/6281232131212?text=Halo%20Phytoderma,%20saya%20ingin%20konsultasi" class="mt-4 inline-flex rounded-2xl bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-600">Gabung</a>
+      </article>
+      <article class="rounded-3xl border border-line bg-white p-6 shadow-soft">
+        <h2 class="text-lg font-semibold">Smile Care</h2>
+        <div class="mt-1 text-2xl font-bold text-accent">Rp 999.000/bln</div>
+        <ul class="mt-3 list-disc pl-5 text-sm text-slate-700">
+          <li>1x Scaling & Polishing</li><li>Diskon 10% dental</li><li>Recall reminder</li>
+        </ul>
+        <a href="https://wa.me/6281232131212?text=Halo%20Phytoderma,%20saya%20ingin%20konsultasi" class="mt-4 inline-flex rounded-2xl bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accent-600">Gabung</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-line bg-white mt-16">
+  <div class="mx-auto max-w-7xl px-4 py-8 text-xs text-mute text-center">© <span id="year"></span> Phytoderma</div>
+</footer>
+<script>const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();</script>
+</body></html>

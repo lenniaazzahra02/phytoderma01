@@ -1,0 +1,13 @@
+/* SEVINCH — optional custom styles (complement Tailwind) */
+html { scroll-behavior: smooth; }
+
+/* Subtle hover lift for cards */
+.hover-rise { transition: transform .2s ease, box-shadow .2s ease; }
+.hover-rise:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+
+/* Placeholder gradient (can be used on avatars or empty images) */
+.avatar-placeholder {
+  background: linear-gradient(135deg, #f0fdfa, #fdf2f8);
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+}
